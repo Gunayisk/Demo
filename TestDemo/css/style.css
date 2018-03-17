@@ -1,0 +1,94 @@
+body{
+	margin: 0 auto;
+	padding: 0;
+}
+#navHead{
+	width: 100%;
+	height: 100px;
+	background: #f04949;
+}
+.container{
+	position: relative;
+	width: 90%;
+	margin: 0 auto;
+}
+nav{
+	padding-top: 20px;
+}
+.brand{
+	box-shadow: 5px #fff;
+	width: 65px;
+	height: 65px;
+	float: left;
+	border-radius: 50%;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.brand img{
+	width: 100%;
+}
+ul.list-item{
+	list-style-type: none; 
+	float: right;
+	width: 70%;
+}
+.inline-item{
+	float: left;
+	margin: 7px;
+}
+li a{
+  border-radius: 20px;
+  text-decoration: none;
+  padding: 7px 27px;
+  color: white;
+  font-size: 20px;
+  margin-right: 8px;
+
+}
+.icon{
+	margin-right: 10px;
+	font-size: 18px;
+}
+.active{
+	background: #203748;
+}
+a:hover{
+ background: #203748;
+
+}
+#content{
+	padding-top: 50px;
+	width: 100%;
+	height: 600px;
+	background: #203748;
+}
+.clear{
+	clear: both;
+}
+.photo{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: white;
+	margin-left: 50px;
+}
+.h4{
+	font-size: 30px;
+	color: #203748; 
+	font-weight: bold;
+	text-align: center;
+	line-height: 100px;
+}
+.about{
+	width: 65%;
+	position: absolute;
+	top: 0;
+    right: 0;
+}
+.h3{}
+.p{}
+.h{	
+}
